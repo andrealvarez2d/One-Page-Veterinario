@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    }
+
+#contenedor{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    }
+
+#cabecera {
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-bottom:-20px;
+    }
+
+#cabecera img{
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 15px;
+    float: left;
+    }
+
+#piepagina{
+    width:100%;
+    height: 100px;
+    background-color:black;
+    text-align: center;
+    padding-top: 8px;
+    color:white;
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+#nav{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    color:white;
+    line-height: 50px;
+    position:fixed;
+    top:0
+    }
+
+#nav ol{
+    padding-left: 60%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    justify-content:flex-end;
+    }
+
+#nav ol li{
+    display: block;
+    width: 120px;
+    float: left;
+    text-align:center;
+    }
+
+#nav ol li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    }
+
+#nav ol li a:hover{
+    background-color: #585858;
+    color: #fff;
+    }
+
+#cuadro img{
+    width: 250px;
+    height: 250px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    margin-right:10px;
+    line-height: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    }
+
+#cuadro{
+    width: 50%;
+    height: 30%;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 40px;
+    display:table;
+    }
+
+.letras{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.semi-transparente{
+    background-color: rgba(117, 89, 70, 0.5)
+    }
+
+@media (max-width: 768px) {
+
+    #nav{
+        width: 100%;
+        height: auto;
+        background-color:black;
+        color:white;
+        line-height: 25px;
+        position:fixed;
+        top:0
+        }
+
+    #nav ol{
+        display:inline-block;
+        }
+
+    #nav ol li{
+        display: inline-block;
+        width: 100%;
+        float: none;
+        text-align:center
+        }
+
+    #nav ol li a{
+        display: inline-block;       
+        }
+
+    #cabecera {
+        margin-top: 150px;
+        }
+
+    #cuadro{
+        width: 50%;
+        height: 30%;
+        margin-top: 5px;
+        margin-left: 15px;
+        margin-right: 5px;
+        padding: 10px;
+        border-radius: 40px;
+        display: table;
+        }
+    }   
