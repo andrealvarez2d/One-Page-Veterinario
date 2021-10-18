@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
     }
 
 #contenedor{
@@ -91,13 +93,53 @@ body{
 
 #cuadro{
     width: 50%;
+    height: 60%;
+    padding: 10px;
+    border-radius: 40px;
+    display:table;
+    }
+
+#mision{
+    width: 30%;
+    height: 30%;
+    margin-top: 15px;
+    margin-left: 160px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 40px;
+    display:table;
+}
+
+#vision{
+    width: 30%;
     height: 30%;
     margin-top: 15px;
     margin-left: 25px;
     margin-right: 15px;
+    margin-bottom: 15px;
     padding: 10px;
     border-radius: 40px;
     display:table;
+}
+
+#servicios{
+    width: 90%;
+    height: 100%;
+    margin: 25px;
+    margin-right: 28px;
+    margin-left: 34px;
+    padding: 40px;
+    border-radius: 40px;
+    display:table;
+    }
+
+#servicios img{
+    width: 350px;
+    height: 350px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
     }
 
 .letras{
@@ -109,6 +151,25 @@ body{
     background-color: rgba(117, 89, 70, 0.5)
     }
 
+.img-png{
+    width: 200px;
+    height: 200px;
+}
+
+.caja1{
+    text-align: left;
+}
+
+.caja2{
+    text-align: center; 
+    margin-top: -420px;
+}
+
+.caja3{
+    text-align: right; 
+    margin-top: -420px;
+}
+
 @media (max-width: 768px) {
 
     #nav{
@@ -116,7 +177,7 @@ body{
         height: auto;
         background-color:black;
         color:white;
-        line-height: 25px;
+        line-height: 20px;
         position:fixed;
         top:0
         }
@@ -150,4 +211,33 @@ body{
         border-radius: 40px;
         display: table;
         }
+
+        #servicios{
+            width: 90%;
+            height: 100%;
+            margin: 25px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 10px;
+            border-radius: 40px;
+            display:inline-block;
+            } 
+
+        #servicios h2{
+            text-align: center;
+            }
+
+        .caja1{
+            text-align: left;
+            }
+            
+        .caja2{
+            text-align: center; 
+            margin-top: -10px;
+            }
+            
+        .caja3{
+            text-align: right; 
+            margin-top: -10px;
+            } 
     }   
