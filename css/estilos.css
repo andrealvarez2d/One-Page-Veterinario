@@ -69,7 +69,7 @@ body{
     text-align: center;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
+    font-size:small;
     }
 
 #nav ol li a:hover{
@@ -110,7 +110,7 @@ body{
     border-radius: 40px;
     float: left;
     display:table;
-}
+    }
 
 #vision{
     width: 30%;
@@ -122,25 +122,25 @@ body{
     padding: 10px;
     border-radius: 40px;
     display:table;
-}
+    }      
 
 #servicios{
-    width: 90%;
-    height: 100%;
-    margin: 25px;
-    
-    padding: 40px;
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border-radius: 40px;
+    padding: 40px;
     display:table;
     }
 
 #servicios img{
-    width: 300px;
-    height: 300px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
     }
+
 #galeria{
     height: 80%;
     width: 80%;
@@ -149,12 +149,13 @@ body{
     margin-bottom: 25px;
     border-radius: 40px;
     display:table;
-}
+    }
+
 #galeria img{
     width: 250px;
     height: 250px;
     padding: 10px;
-}
+    }
 
 #contactos{
     width: 60%;
@@ -164,7 +165,7 @@ body{
     margin-bottom: 25px;
     border-radius: 40px;
     margin: auto;
-}
+    }
 
 .letras{
     color: white;
@@ -178,22 +179,7 @@ body{
 .img-png{
     width: 200px;
     height: 200px;
-}
-
-.caja1{
-    text-align: left;
-    
-}
-
-.caja2{
-    text-align: center; 
-    margin-top: -371px;
-}
-
-.caja3{
-    text-align: right; 
-    margin-top: -371px;
-}
+    }
 
 .input{
     width: 80%;
@@ -201,19 +187,19 @@ body{
     margin-bottom: 20px;
     color:#000000;
     float: none;
-   
     }
-    .textarea{
+
+.textarea{
     width: 100%;
     color:#000000;
     margin-bottom: 20px;
     float: none;
     }
-    .button{
+
+.button{
     width: 100%;
     color:#000000;
     float: none;
-    
     }
 
 @media (max-width: 768px){
@@ -223,7 +209,7 @@ body{
         height: auto;
         background-color:black;
         color:white;
-        line-height: 20px;
+        line-height: 18px;
         position:fixed;
         top:0
         }
@@ -258,44 +244,26 @@ body{
         display: table;
         }
 
-        #mision{
-            width: 30%;
-            height: 30%;
-            margin-top: 15px;
-            margin-left: 30px;
-            margin-right: 15px;
-            margin-bottom: 15px;
-            padding: 10px;
-            border-radius: 40px;
-            float: none;
-            display:table;
+    #mision{
+        width: 30%;
+        height: 30%;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 40px;
+        float: none;
+        display:table;
         }
 
-        #servicios{
-            width: 90%;
-            height: 100%;
-            margin: 25px;
-            margin-left: 10px;
-            margin-right: 5px;
-            padding: 10px;
-            border-radius: 40px;
-            display:inline-block;
-            } 
-
-
-        .caja1{
-            text-align: center;
-            }
-            
-        .caja2{
-            text-align: center; 
-            margin-top: -10px;
-            }
-            
-        .caja3{
-            text-align: center; 
-            margin-top: -10px;
-            } 
+    #servicios{
+        width: 90%;
+        height: 100%;
+        margin: 25px;
+        margin-left: 10px;
+        margin-right: 5px;
+        padding: 10px;
+        border-radius: 40px;
+        } 
     }   
-
-    
