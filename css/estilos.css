@@ -136,6 +136,12 @@ body{
     padding: 10px;
     }
 
+#mapa{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
 #galeria{
     height: 80%;
     width: 80%;
@@ -189,6 +195,11 @@ body{
     color:#000000;
     float: none;
     }
+
+.mapa{
+    width: 1000px;
+    height: 400px;
+}
 
 @media (max-width: 768px){
 
@@ -254,4 +265,9 @@ body{
         padding: 10px;
         border-radius: 40px;
         } 
+
+        .mapa{
+            width: 400px;
+            height: 300px;
+        }
     }   
